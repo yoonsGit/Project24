@@ -1,0 +1,38 @@
+.product-page {
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    flex-direction: row;/* 수평으로 정렬 */
+    height: 100vh;
+    background-color: #f5f5dc;
+}
+  .product-text{
+    color: #26b539;
+    font-family: "Gowun Dodum", sans-serif;
+    font-size : 18px;
+    font-style: normal;
+  
+  }
+  .product-logo{
+    color: #dd9a36;
+    font-family: "Gowun Dodum", sans-serif;
+    font-size : 36px;
+    font-style: normal;
+   
+    margin : 'auto';
+   
+  }
+  .product{
+    margin:40px;
+  }
+  .minibox{
+    margin : 10px;
+    border : solid orange;
+    width : 100px;
+    height : 100px;
+    /* float : left; */
+    border-radius: 10%;
+    text-align: center;
+    
+  }
+  /*minibox 부분 추가했습니다!*/
